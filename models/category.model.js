@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+
 const categorySchema = new mongoose.Schema(
   {
     name: {
@@ -20,20 +21,11 @@ const categorySchema = new mongoose.Schema(
       trim: true,
     },
   },
+
   {
     timestamps: true,
   }
 );
-
-
-// Automatically generate slug from name
-categorySchema.pre("save", function (next) {
-  this.slug = this.name
-    .toLowerCase()
-    .replace(/\s+/g, "-");
-
-  next();
-});
 
 
 module.exports = mongoose.model("Category", categorySchema);
