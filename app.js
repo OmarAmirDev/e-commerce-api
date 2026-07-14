@@ -43,6 +43,11 @@ const productRoutes = require("./routes/products");
 
 app.use("/api/products", productRoutes);
 
+const cartRoutes = require("./routes/cart");
+
+
+app.use("/api/cart", cartRoutes);
+
 
 
 
