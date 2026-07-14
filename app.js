@@ -48,6 +48,11 @@ const cartRoutes = require("./routes/cart");
 
 app.use("/api/cart", cartRoutes);
 
+const orderRoutes = require("./routes/orders");
+
+
+app.use("/api/orders", orderRoutes);
+
 
 
 
