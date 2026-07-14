@@ -38,6 +38,11 @@ const categoryRoutes = require("./routes/category.routes");
 
 app.use("/api/categories", categoryRoutes);
 
+const productRoutes = require("./routes/products");
+
+
+app.use("/api/products", productRoutes);
+
 
 
 
