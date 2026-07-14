@@ -87,3 +87,9 @@ MONGO_URI=your_connection_string
 Run:
 
 npm run dev
+
+## Release
+
+Version: 1.0.0
+
+Status: Final Review
