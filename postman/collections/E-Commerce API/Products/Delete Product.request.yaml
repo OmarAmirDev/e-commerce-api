@@ -1,0 +1,5 @@
+$kind: http-request
+name: Delete Product
+url: "{{url}}/products/6a56bde7075a720f864bc713"
+method: DELETE
+order: 4441514986855510

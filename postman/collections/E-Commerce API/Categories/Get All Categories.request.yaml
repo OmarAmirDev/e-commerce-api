@@ -1,0 +1,5 @@
+$kind: http-request
+name: Get All Categories
+url: "{{url}}/categories"
+method: GET
+order: 1784067939558

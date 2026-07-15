@@ -1,0 +1,12 @@
+$kind: http-request
+name: Update Category
+url: "{{url}}/categories/6a54f95c04ceb1583eb16f75"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\":\"Gaming Updated\"\r
+
+    }"
+order: 2335712015456350

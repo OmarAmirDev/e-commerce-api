@@ -1,0 +1,5 @@
+$kind: http-request
+name: Get Category By ID
+url: "{{url}}/categories/6a54f95c04ceb1583eb16f75"
+method: GET
+order: 884119953256030

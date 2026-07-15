@@ -1,0 +1,14 @@
+$kind: http-request
+name: Add Item
+url: "{{url}}/cart/items"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"productId\":\"6a54f95c04ceb1583eb16f7a\",\r
+
+    \    \"quantity\":1\r
+
+    }"
+order: 3003044274844660

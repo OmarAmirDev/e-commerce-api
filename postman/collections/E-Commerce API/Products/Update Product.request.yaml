@@ -1,0 +1,8 @@
+$kind: http-request
+name: Update Product
+url: "{{url}}/products/6a56bde7075a720f864bc713"
+method: PATCH
+body:
+  type: json
+  content: "{\r\n    \"price\":150\r\n}"
+order: 4420493651929878

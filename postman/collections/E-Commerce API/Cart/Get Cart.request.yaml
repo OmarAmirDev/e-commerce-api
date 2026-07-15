@@ -1,0 +1,5 @@
+$kind: http-request
+name: Get Cart
+url: "{{url}}/cart"
+method: GET
+order: 1784070644661

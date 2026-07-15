@@ -1,0 +1,5 @@
+$kind: http-request
+name: Get Orders
+url: "{{url}}/orders"
+method: GET
+order: 3831166123330499
