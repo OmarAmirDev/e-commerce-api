@@ -1,0 +1,5 @@
+$kind: http-request
+name: Remove Item
+url: "{{url}}/cart/items/6a54f95c04ceb1583eb16f7a"
+method: DELETE
+order: 3974926083349838

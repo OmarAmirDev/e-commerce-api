@@ -1,0 +1,20 @@
+$kind: http-request
+name: Create Product
+url: "{{url}}/products"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\":\"Anime Hoodie\",\r
+
+    \    \"description\":\"High-Quality Anime Hoodie\",\r
+
+    \    \"price\":50,\r
+
+    \    \"stock\":10,\r
+
+    \    \"category\":\"6a54f95c04ceb1583eb16f76\"\r
+
+    }"
+order: 4399038691566864

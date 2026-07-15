@@ -1,0 +1,8 @@
+$kind: http-request
+name: Update Quantity
+url: "{{url}}/cart/items/6a54f95c04ceb1583eb16f7a"
+method: PATCH
+body:
+  type: json
+  content: "{\r\n    \"quantity\":5\r\n}"
+order: 3649324543395401

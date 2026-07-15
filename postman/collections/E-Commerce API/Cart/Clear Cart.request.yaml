@@ -1,0 +1,5 @@
+$kind: http-request
+name: Clear Cart
+url: "{{url}}/cart"
+method: DELETE
+order: 4468160820651703

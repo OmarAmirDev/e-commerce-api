@@ -1,0 +1,20 @@
+$kind: http-request
+name: Create Order
+url: "{{url}}/orders"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"shippingAddress\":{\r
+
+    \        \"street\":\"Main Street\",\r
+
+    \        \"city\":\"Mansoura\",\r
+
+    \        \"country\":\"Egypt\"\r
+
+    \    }\r
+
+    }"
+order: 1784072498861

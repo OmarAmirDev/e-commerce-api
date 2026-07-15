@@ -1,0 +1,5 @@
+$kind: http-request
+name: Get Product By ID
+url: "{{url}}/products/6a54f95c04ceb1583eb16f7a"
+method: GET
+order: 4258348124456468

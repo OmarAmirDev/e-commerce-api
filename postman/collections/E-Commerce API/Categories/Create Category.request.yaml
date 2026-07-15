@@ -1,0 +1,14 @@
+$kind: http-request
+name: Create Category
+url: "{{url}}/categories"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\":\"Gaming\",\r
+
+    \    \"description\":\"Gaming equipment\"\r
+
+    }"
+order: 1310152457869614
