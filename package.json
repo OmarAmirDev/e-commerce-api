@@ -1,7 +1,7 @@
 {
   "name": "e-commerce-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "RESTful E-Commerce Backend API built with Express, MongoDB, and Mongoose.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -9,7 +9,7 @@
     "seed": "node seed.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Omar Amir",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
